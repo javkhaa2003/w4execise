@@ -1,0 +1,29 @@
+.box{
+	height:250px;
+	width: 100%;
+}
+.red{
+	background-color: red;
+
+}
+.yellow{
+	background-color: yellow;
+}
+.blue{
+	background-color: blue;
+
+}
+.green{
+	background-color: green;
+
+}
+@media only screen and (max-width: 600px){
+	.yellow, .blue{
+		display: none;
+	}
+}
+.container{
+  height: 200px;
+  width: 200px;
+
+}
